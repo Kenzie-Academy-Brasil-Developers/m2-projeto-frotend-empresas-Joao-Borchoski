@@ -1,0 +1,28 @@
+@media (min-width: 600px) {
+    header {
+        padding: 2rem ; 
+        justify-content: space-between;
+        display: flex;
+    }
+    .divRegister {
+        position: static;
+        max-width: 506px;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main > img {
+        overflow: hidden;
+        width: 100%;
+    }
+    .divHeader3, .modalMenu {
+        display: none;
+    }
+    .divHeader3 {
+        display: flex;
+        width: 30%;
+
+    }
+}

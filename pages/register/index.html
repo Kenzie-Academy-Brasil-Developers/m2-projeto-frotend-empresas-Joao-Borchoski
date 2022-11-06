@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/coisasUsuais.css">
+    <link rel="stylesheet" href="../../style/globalStyle.css">
+    <link rel="stylesheet" href="./register-desk.css">
+    <link rel="stylesheet" href="./register-mobile.css">
+
+    <title>Kenzie Empresas - Registar</title>
+</head>
+<body>
+    <header class="flex relative">
+        <div class="divHeader1 flex justifyBet align">
+            <section class="flex align gap8">
+                <img src="../../src/img1.svg" alt="">
+                <img src="../../src/imgKenzie.svg" alt="">
+            </section>
+            <section class="divHeader2 flex gap8 justifyBet">
+                <button class="butLogin">Login</button>
+                <button class="butRegister">Cadastro</button>
+            </section>
+            <section class="modalMenu">
+                <button class="butModal"><img src="../../src/imgBARRINHA.svg" alt=""></button>
+            </section>
+        </div>
+        <div class="divHeader3 flex gap8 justifyBet">
+            <button class="butLogin">Login</button>
+            <button class="butRegister">Home</button>
+        </div>
+    </header>
+    <main class="relative">
+        <img src="../../src/img3.svg" alt="">
+        <div class="divRegister flex column gap24">
+            <h1>Cadastre-se</h1>
+            <form id="form" class="flex column gap8">
+                <input id="username" type="text" placeholder="Seu nome">
+                <input id="email" type="email" placeholder="Seu e-mail">
+                <input id="password" type="password" placeholder="Sua senha">
+                <select id="professional_level" name="professional_level">
+                    <option value="none">Nível profissional</option>
+                    <option value="estágio">estágio</option>
+                    <option value="júnior">júnior</option>
+                    <option value="pleno">pleno</option>
+                    <option value="sênior">sênior</option>
+                </select>
+                <button class="butRegistrar">Cadastre-se</button>
+                <a class="butReturn" href="../../index.html">Retornar</a>
+            </form>
+        </div>
+    </main>
+    <script type="module" src="./register.js"></script>
+</body>
+</html>

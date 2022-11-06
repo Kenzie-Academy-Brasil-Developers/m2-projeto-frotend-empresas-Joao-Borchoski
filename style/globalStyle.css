@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  body button {
+    cursor: pointer;
+  }
+  
+  body li {
+    list-style: none;
+  }
+  
+  input:focus, select:focus, textarea:focus {
+    outline: 0;
+  }

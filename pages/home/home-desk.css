@@ -1,0 +1,46 @@
+@media (min-width: 600px) {
+    body {
+        margin:  0 8.75rem;
+    }
+    header {
+        padding: 2rem ;
+    }
+    .divmain {
+        display: flex; 
+        gap: 8px;
+        justify-content: space-between;
+    }
+    .divHeader2 {
+        display: flex;
+        width: 30%;
+        position: absolute;
+        right: 1rem;
+    }
+    .divHeader3, .butModal {
+        display: none;
+    }
+    .divMain1 {
+        display: flex;
+        width: 35%;
+    }
+    .divMain1 img {
+        width: 100%;
+    }
+    .divMain2 {
+        width: 50%;
+        gap: 0;
+    }
+    .cards {
+        flex-wrap: wrap;
+        width: 100%;
+        overflow: visible;
+        border: none;
+        padding: 0;
+        height: 750px;
+        overflow-y: scroll;
+    }
+    .card {
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,95 @@
+
+header {
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    margin-bottom: 2rem;
+}
+main {
+    margin:  0 8.75rem;
+}
+
+.divHeader1 {
+    margin:  0 8.75rem;
+    padding: 2rem 0;
+}
+
+.butLogout {
+    width: 142px;
+    height: 48px;
+    border: 1.5px #4200FF solid;
+    color: #4200FF;
+    background: white;
+}
+
+.divUser {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 16px;
+}
+
+.work {
+    max-width: 100%;
+    
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.headerWord {
+    background-color: #4200FF;    
+    color: white;
+    padding: 8px;
+}
+.cardWord {
+    width: 318px;
+    height: 76px;
+    border: 1px solid #4200FF;
+    gap: 8px;
+    padding: 8px;
+}
+.mainWork {
+    padding: 40px;
+}
+
+.butEdit {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.modais {
+    background-color: rgba(70, 35, 167, 0.2);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+.modalEx {
+    width: 506px;
+    height: 421px;
+    background-color: white;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 32px;
+}
+.modalIn section button {
+    background: transparent;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: none;
+    font-size: 30px;
+}
+.modalIn section h1 {
+    font-size: 30px;
+}
+.modalIn input{
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 8px;
+}
+.modalIn form button {
+    height: 52px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #4200FF;
+    color: white;
+}

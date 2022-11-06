@@ -1,0 +1,75 @@
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+
+header {
+    padding: 1rem;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.divHeader2{
+    display: none;
+}
+
+.butModal {
+    background: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butLogin {
+    color: #4200FF;
+    width: 48%;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #4200FF;
+}
+.butRegister {
+    width: 48%;
+    height: 48px;
+    background: #4200FF;
+    border: 1px solid #4200FF;
+    color: white;
+}
+main {
+    width: 100vw;
+}
+main > img {
+    /* width: 100%; */
+    overflow: hidden;
+}
+.divRegister {
+    padding: 16px;
+    opacity: 0.9;
+    max-height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 5%;
+    background: #FFFFFF;
+}
+.divRegister input, select {
+    padding: 0 8px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.butRegistrar {
+    background: #4200FF;
+    height: 48px;
+    color: white;
+    border: none;
+}
+.butReturn {
+    height: 48px;
+    color: #4200FF;
+    border: 1px solid #4200FF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenzie Empresas - Admin</title>
+    <link rel="stylesheet" href="../../style/coisasUsuais.css">
+    <link rel="stylesheet" href="../../style/globalStyle.css">
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body class="relative">
+    <header>
+        <div class="divHeader1 flex align justifyBet">
+            <div class=" flex gap8 align">
+                <img src="../../src/img1.svg" alt="">
+                <img src="../../src/imgKenzie.svg" alt="">
+            </div>
+            <div>
+                <button class="butLogout">Logout</button>
+            </div>
+        </div>
+    </header>
+    <main class="flex column gap64">
+        <div class="departaments flex column gap32">
+            <div class="flex justifyBet align">
+                <h1>Departamentos</h1>
+                <select class="selectWork" name="empresas" id="empresas">
+                    <option value="none">Selecionar Empresa</option>
+                </select>           
+                <button class="butCriaWork flex align gap8">
+                    <img src="../../src/img5.svg" alt="">
+                    Criar
+                </button>
+            </div>
+            <ul id="ulcardDepartaments" class="ulcardDepartaments flex wrap justifyBet gap32">
+                <!-- <li class="cardDepartaments flex column gap24">
+                    <section class="flex column gap12">
+                        <h3>Department Name</h3>
+                        <span>Department Description</span>
+                        <p>Company Name</p>
+                    </section>
+                    <section class="flex align justifyCenter gap24">
+                        <button>
+                            <img src="../../src/img6.svg" alt="">
+                        </button>
+                        <button>
+                            <img src="../../src/img7.svg" alt="">
+                        </button>
+                        <button>
+                            <img src="../../src/img8.svg" alt="">
+                        </button>
+                    </section>
+                </li> -->
+            </ul>
+        </div>
+        <div class="users flex column gap32">
+            <section class="flex align justifyCenter">
+                <h1>Usuários cadastrados</h1>
+            </section>
+            <ul id="userCard" class="flex wrap justifyBet gap32">
+                <!-- <li class="cardUsers flex column gap24">
+                    <section class="flex column gap12">
+                        <h3>Username</h3>
+                        <span>Pleno</span>
+                        <p>Company Name</p>
+                    </section>
+                    <section class="flex align justifyCenter gap24">
+                        <button>
+                            <img src="../../src/img4.svg" alt="">
+                        </button>
+                        <button>
+                            <img src="../../src/img8.svg" alt="">
+                        </button>
+                    </section>
+                </li> -->
+            </ul>
+        </div>
+        <div id="modais" class="modais absolute relative hide">
+            <!-- <div class="modalEx absolute">
+                <div class="modalIn flex column gap16">
+                    <section class="flex flexEnd">
+                      <h1>x</h1>
+                    </section>
+                    <h1>Realmente deseja deletar o Departamento NOME e demitir seus funcionários?</h1>
+                    <button class="butRemoveDepartament">Confirmar</button>
+                </div>
+            </div> -->
+        </div>
+    </main>
+    <script type="module" src="./admin.js"></script>
+</body>
+</html>

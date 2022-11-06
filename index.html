@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/coisasUsuais.css">
+    <link rel="stylesheet" href="./style/globalStyle.css"> 
+    <link rel="stylesheet" href="./pages/home/home-mobile.css">
+    <link rel="stylesheet" href="./pages/home/home-desk.css">
+    <title>Kenzie Empresas</title>
+</head>
+<body>
+    <header class="flex column relative">
+        <div class="divHeader1 flex justifyBet align">
+            <section class="flex align gap8">
+                <img src="./src/img1.svg" alt="">
+                <img src="./src/imgKenzie.svg" alt="">
+            </section>
+            <section class="divHeader2 flex gap8 justifyBet">
+                <button class="butLogin">Login</button>
+                <button class="butRegister">Cadastro</button>
+            </section>
+            <section>
+                <button class="butModal">
+                    <img class="imgModal" src="./src/imgBARRINHA.svg" alt="">
+                </button>
+            </section>
+        </div>
+        <div class="divHeader3 flex gap8 justifyBet">
+            <button class="butLogin">Login</button>
+            <button class="butRegister">Cadastro</button>
+        </div>
+    </header>
+    <main>
+        <div class="divmain">
+            <div class="divMain1">
+                <img src="./src/img2.svg" alt="">
+            </div>
+            <div class="divMain2 flex column gap32">
+                <select class="selectSector" name="sector" id="sector">
+                    <option value="none">Selecionar setor</option>
+                    <option value="Alimenticio">Alimenticio</option>
+                    <option value="Varejo">Varejo</option>
+                    <option value="Textil">Textil</option>
+                    <option value="Manufatura">Manufatura</option>
+                    <option value="Aeroespacial">Aeroespacial</option>
+                    <option value="Automotiva">Automotiva</option>
+                    <option value="TI">TI</option>
+                    <option value="Atacado">Atacado</option>
+                </select>
+                <ul class="cards flex gap16 ">
+                    <!-- <li class="card flex column justifyBet">
+                        <h2>Nome Empresa</h2>
+                        <section class="flex column gap8">
+                            <span>10 horas</span>
+                            <p class="cardSector">Setor</p>
+                        </section>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="./pages/home/home.js"></script>
+</body>
+</html>
