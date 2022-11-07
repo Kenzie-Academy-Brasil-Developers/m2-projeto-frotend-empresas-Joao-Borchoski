@@ -63,3 +63,13 @@ function register () {
 
 }
 register()
+
+function butToast () {
+    const butModal = document.querySelector('.butModal')
+    const divHeader3 = document.querySelector('.divHeader3')
+
+    butModal.addEventListener('click', () => {
+        divHeader3.classList.toggle('hide')
+    })
+}
+butToast()

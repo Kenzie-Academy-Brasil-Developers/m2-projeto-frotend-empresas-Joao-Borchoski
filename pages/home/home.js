@@ -70,15 +70,9 @@ filterHome()
 function butToast () {
     const butModal = document.querySelector('.butModal')
     const divHeader3 = document.querySelector('.divHeader3')
-    const imgModal = document.querySelector('.imgModal')
 
     butModal.addEventListener('click', () => {
-        if(imgModal.src === './src/imgBARRINHA.svg'){
-            imgModal.src = 'src/imgCLOSE.svg'
-            console.log(imgModal.src)
-        }else{
-            imgModal.src = 'src/imgBARRINHA.svg'
-        }
+        divHeader3.classList.toggle('hide')
     })
 }
 butToast()

@@ -71,3 +71,14 @@ function login () {
     })
 }
 login()
+
+function butToast () {
+    const butModal = document.querySelector('.butModal')
+    const divHeader3 = document.querySelector('.divHeader3')
+    let img = document.querySelector('.imgModal')
+
+    butModal.addEventListener('click', () => {
+        divHeader3.classList.toggle('hide')
+    })
+}
+butToast()

@@ -2,8 +2,21 @@
     header {
         flex-direction: column;
     }
+    .divHeader3 {
+        margin-top: 16px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        background: white;
+        animation: 1s toast forwards;
+        z-index: 100;
+    }
 }
-
+ 
+@keyframes toast {
+    0% {top: 0;}
+    100% {top: 50px;}
+}
 
 header {
     padding: 1rem;
